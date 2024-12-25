@@ -1,24 +1,89 @@
 {
-    "id": "3",
-    "judul": "Hadzal Qur'an",
-    "kategori": "Sholawat Terkini",
-    "nada": "4/4",
-    "source": "Kitab Majmu'ah Maulid wa Ad'iyyah",
-    "lirik": [
-      {
-        "arab": "احمد يا حبيبي",
-        "latin": "Ahmad Ya habibi",
-        "terjemahan": "Ahmad wahai kekasihku"
-      },
-      {
-        "arab": "احمد سلام عليك",
-        "latin": "Ahmad salam 'alaika",
-        "terjemahan": "Ahmad, salam sejahtera untukmu"
-      }
-    ],
-    "author": "Unknown",
-    "created_at": "2024-01-01",
-    "tags": ["populer", "mudah"],
-    "youtube_link": "https://youtube.com/watch?v=...",
-    "audio_link": "https://soundcloud.com/..."
-  }
+  "id": "3",
+  "judul": "Hadzal Quran",
+  "kategori": "Sholawat Terkini",
+  "nada": "4/4",
+  "source": "Unknown",
+  "lirik": [
+    {
+      "arab": "يَا رَمَضَانْ ... عُدْتَ إِلَيْنَا بِالْأَنْوَارْ، جَمِيلْ مَعَاكَ الْبُشْرَى",
+      "latin": "Ya Ramadhan ... 'udta ilaina bil anwar, jamil ma'akal busyro",
+      "terjemahan": "Wahai Ramadhan ... kau telah kembali pada kami dengan cahaya-cahaya, indah bersamamu kabar gembira"
+    },
+    {
+      "arab": "لَيْلَ نَهَارْ، لِنَذْكُرَهُ فِعْلَ الْبِرِّ وَحُبَّ النَّاسْ، وَفِعْلَ الْخَيْرْ ... وَاللهُ هُوَ الْغَفَّارْ",
+      "latin": "Lail nahar, linadzkuruhu fi'lal birri wa hubban nas, wa fi'lal khoir ... wallahu huwal ghoffar",
+      "terjemahan": "Siang malam, untuk mengingat-Nya dengan perbuatan baik dan mencintai manusia, dan berbuat kebaikan ... Allah Maha Pengampun"
+    },
+    {
+      "arab": "وَاللهُ أَكْبَرْ حُلُوْ وَحَنَّ كَالْعِيدْ",
+      "latin": "Wallahu akbar huluw wa hannal ka'id",
+      "terjemahan": "Allah Maha Besar, manis dan rindu seperti hari raya"
+    },
+    {
+      "arab": "هٰذَا كَلَامٌ فِي الرَّوْضَةِ ... وَالْإِنْسَانْ",
+      "latin": "Hadza kalamun fir raudhah ... wal insan",
+      "terjemahan": "Ini adalah perkataan di taman ... dan manusia"
+    },
+    {
+      "arab": "يَا رَمَضَانْ ... عُدْتَ إِلَيْنَا بِالْأَنْوَارْ",
+      "latin": "Ya Ramadhan ... 'udta ilaina bil anwar",
+      "terjemahan": "Wahai Ramadhan ... kau telah kembali pada kami dengan cahaya-cahaya"
+    },
+    {
+      "arab": "بَكَّرَ النَّاسْ وَقَامْ ... وَلَوْ زَارْ",
+      "latin": "Bakkar an-nas wa qam ... wa lau zar",
+      "terjemahan": "Orang-orang datang pagi-pagi dan mendirikan (shalat) ... meskipun berkunjung"
+    },
+    {
+      "arab": "هٰذَا الْقُرْآنْ ... هٰذَا الْقُرْآنْ ... هٰذَا الْقُرْآنْ ... هٰذَا الْقُرْآنْ",
+      "latin": "Hadzal Qur'an ... Hadzal Qur'an ... Hadzal Qur'an ... Hadzal Qur'an",
+      "terjemahan": "Inilah Al-Qur'an ... Inilah Al-Qur'an ... Inilah Al-Qur'an ... Inilah Al-Qur'an"
+    },
+    {
+      "arab": "هٰذَا الْقُرْآنُ يُوَجِّهُنَا لِطَرِيقِ الْخَيْرِ يَهْدِيْنَا",
+      "latin": "Hadzal Qur'anu yuwajjihuna lithoriqil khoiri yahdina",
+      "terjemahan": "Al-Qur'an ini mengarahkan kita ke jalan kebaikan memberi petunjuk kepada kita"
+    },
+    {
+      "arab": "اللهُ تَعَالَى أَنْزَلَهُ وَرَسُولُ اللهِ يُعَلِّمُنَا",
+      "latin": "Allahu ta'ala anzalahu wa rosulullahi yu'allimuna",
+      "terjemahan": "Allah Ta'ala menurunkannya dan Rasulullah mengajarkan kepada kita"
+    },
+    {
+      "arab": "هٰذَا الْقُرْآنُ هُوَ يُلَبِّي لِأَوْلَادِنَا وَإِخْرَاجِنَا",
+      "latin": "Hadzal Qur'anu huwa yulabbi li auladina wa ikhrojina",
+      "terjemahan": "Al-Qur'an ini memenuhi untuk anak-anak kita dan keluaran kita"
+    },
+    {
+      "arab": "يَذْكُرُ الْعِلْمَ وَالْعَمَلَ أُنْشِئَ سَوْفَ يُعَلِّمُنَا",
+      "latin": "Yadzkurul 'ilma wal 'amal unsyi'a saufa yu'allimuna",
+      "terjemahan": "Menyebutkan ilmu dan amal yang akan diajarkan kepada kita"
+    },
+    {
+      "arab": "رَسُولُ اللهِ يَحْفَظُ مِنْهُ مِنَ الْإِنْسَانِ أَجْمَعَهْ",
+      "latin": "Rosulullahi yahfadhu minhu minal insani ajma'ah",
+      "terjemahan": "Rasulullah menjaga darinya dari seluruh manusia"
+    },
+    {
+      "arab": "كِتَابُ اللهِ عَلَّمَهُ وَنَقْرَؤُهُ وَنَفْهَمُهْ",
+      "latin": "Kitabullahi 'allamahu wa naqro'uhu wa nafhamuhu",
+      "terjemahan": "Kitab Allah mengajarkannya, dan kita membacanya dan memahaminya"
+    },
+    {
+      "arab": "فِيهِ الْأَجْرُ بِهِ الْفَوْزُ إِذَاكُنَّا نَتَلَقَّى",
+      "latin": "Fihil ajru bihil fauzu idza kunna natalaqqo",
+      "terjemahan": "Di dalamnya ada pahala dan dengannya ada kemenangan ketika kita menerimanya"
+    },
+    {
+      "arab": "تَعَلَّمْ مِنْهُ لِأَنْفُسِنَا وَبِالذِّكْرِ نَتَعَلَّمُهْ",
+      "latin": "Ta'allam minhu li anfusina wa bidz dzikri nata'allamuhu",
+      "terjemahan": "Belajarlah darinya untuk diri kita dan dengan dzikir kita mempelajarinya"
+    }
+  ],
+  "author": "Unknown",
+  "created_at": "Unknown",
+  "tags": ["quran", "ramadhan", "terkini", "populer"],
+  "youtube_link": "https://youtube.com/watch?v=...",
+  "audio_link": "https://soundcloud.com/..."
+}

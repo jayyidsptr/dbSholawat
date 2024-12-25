@@ -1,24 +1,294 @@
 {
-    "id": "2",
-    "judul": "Sholawat Badar",
-    "kategori": "Sholawat Terkini",
-    "nada": "4/4",
-    "source": "Kitab Majmu'ah Maulid wa Ad'iyyah",
-    "lirik": [
-      {
-        "arab": "احمد يا حبيبي",
-        "latin": "Ahmad Ya habibi",
-        "terjemahan": "Ahmad wahai kekasihku"
-      },
-      {
-        "arab": "احمد سلام عليك",
-        "latin": "Ahmad salam 'alaika",
-        "terjemahan": "Ahmad, salam sejahtera untukmu"
-      }
-    ],
-    "author": "Unknown",
-    "created_at": "2024-01-01",
-    "tags": ["populer", "mudah"],
-    "youtube_link": "https://youtube.com/watch?v=...",
-    "audio_link": "https://soundcloud.com/..."
-  }
+  "id": "1",
+  "judul": "Sholawat Badriyah",
+  "kategori": "Sholawat Klasik",
+  "nada": "4/4",
+  "source": "Sholawat Badar",
+  "lirik": [
+    {
+      "arab": "صَلاَةُ اللهِ سَلاَمُ اللهِ",
+      "latin": "Sholatullahi salamullahi",
+      "terjemahan": "Rahmat Allah dan salam Allah"
+    },
+    {
+      "arab": "عَلَى طٰهَ رَسُوْلِ اللهِ",
+      "latin": "'Ala Thaha Rosulillahi",
+      "terjemahan": "Semoga terlimpah atas Thaha (Muhammad) Rasulullah"
+    },
+    {
+      "arab": "صَلاَةُ اللهِ سَلاَمُ اللهِ",
+      "latin": "Sholatullahi salamullahi",
+      "terjemahan": "Rahmat Allah dan salam Allah"
+    },
+    {
+      "arab": "عَلٰى يٰس حَبِيْبِ اللهِ",
+      "latin": "'Ala Yasin Habibillahi",
+      "terjemahan": "Semoga terlimpah atas Yasin (Muhammad) kekasih Allah"
+    },
+    {
+      "arab": "تَوَسَّلْنَا بِبِسْمِ اللهِ",
+      "latin": "Tawassalna bibismillahi",
+      "terjemahan": "Kami bertawasul dengan nama Allah"
+    },
+    {
+      "arab": "وَبِالْهَادِي رَسُوْلِ اللهِ",
+      "latin": "Wa bil hadi rosulillahi",
+      "terjemahan": "Dan dengan Nabi pemberi petunjuk, Rasulullah"
+    },
+    {
+      "arab": "وَكُلِّ مُجَاهِدٍ لِلَّهِ",
+      "latin": "Wa kulli mujahidin lillahi",
+      "terjemahan": "Dan semua pejuang di jalan Allah"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "إِلٰهِي سَلِّمِ اْلأُمَّةَ",
+      "latin": "Ilahi sallimil ummah",
+      "terjemahan": "Ya Allah, selamatkanlah umat"
+    },
+    {
+      "arab": "مِنَ اْلآفَاتِ وَالنِّقْمَةِ",
+      "latin": "Minal afaati wanniqmah",
+      "terjemahan": "Dari segala marabahaya dan bencana"
+    },
+    {
+      "arab": "وَمِنْ هَمٍّ وَمِنْ غُمَّةٍ",
+      "latin": "Wa min hammin wa min ghummah",
+      "terjemahan": "Dan dari kesedihan serta kesusahan"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "إِلٰهِي نَجِّنَا وَاكْشِفْ",
+      "latin": "Ilahi najjina waksyif",
+      "terjemahan": "Ya Allah, selamatkanlah kami dan singkapkanlah"
+    },
+    {
+      "arab": "جَمِيعَ اَذِيَّةٍ وَاصْرِفْ",
+      "latin": "Jami'a adziyyatin wasrif",
+      "terjemahan": "Segala gangguan dan hindarkanlah"
+    },
+    {
+      "arab": "مَكَائِدَ الْعِدَا وَالْطُفْ",
+      "latin": "Maka-idal 'ida walthuf",
+      "terjemahan": "Tipu daya musuh dan berilah kelembutan"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "إِلٰهِي نَفِّسِ الْكُرَبَا",
+      "latin": "Ilahi naffisil kuroba",
+      "terjemahan": "Ya Allah, lepaskanlah kesusahan"
+    },
+    {
+      "arab": "مِنَ الْعَاصِينَ وَالْعَطَبَا",
+      "latin": "Minal 'ashina wal 'athoba",
+      "terjemahan": "Dari orang-orang yang bermaksiat dan celaka"
+    },
+    {
+      "arab": "وَكُلَّ بَلِيَّةٍ وَبَا",
+      "latin": "Wa kulla baliyyatin wa ba",
+      "terjemahan": "Dan segala ujian dan wabah"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "فَكَمْ مِنْ رَحْمَةٍ حَصَلَتْ",
+      "latin": "Fakam min rohmatin hasholat",
+      "terjemahan": "Maka betapa banyak rahmat yang telah diperoleh"
+    },
+    {
+      "arab": "وَكَمْ مِنْ ذِلَّةٍ فَضَلَتْ",
+      "latin": "Wa kam min dzillatin fadholat",
+      "terjemahan": "Dan betapa banyak kehinaan yang telah sirna"
+    },
+    {
+      "arab": "وَكَمْ مِنْ نِعْمَةٍ وَصَلَتْ",
+      "latin": "Wa kam min ni'matin washolat",
+      "terjemahan": "Dan betapa banyak nikmat yang telah sampai"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "وَكَمْ أَغْنَيْتَ ذَا الْفَقْرِ",
+      "latin": "Wa kam aghnaita dzal faqri",
+      "terjemahan": "Dan betapa banyak Engkau mencukupkan orang fakir"
+    },
+    {
+      "arab": "وَكَمْ أَوْلَيْتَ ذَا الْقَفْرِ",
+      "latin": "Wa kam aulaita dzal qofri",
+      "terjemahan": "Dan betapa banyak Engkau memberi orang yang kekurangan"
+    },
+    {
+      "arab": "وَكَمْ عَافَيْتَ ذَا الْوَذْرِ",
+      "latin": "Wa kam 'afaita dzal wadzri",
+      "terjemahan": "Dan betapa banyak Engkau maafkan orang yang berdosa"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "لَقَدْ ضَاقَتْ عَلَى الْقَلْبِ",
+      "latin": "Laqod dhoqot 'alal qolbi",
+      "terjemahan": "Sungguh telah sempitlah hati"
+    },
+    {
+      "arab": "جَمِيعُ اْلأَرْضِ مَعْ رَحْبِ",
+      "latin": "Jami'ul ardhi ma' rohbi",
+      "terjemahan": "Seluruh bumi beserta keluasannya"
+    },
+    {
+      "arab": "فَنَجِّ مِنَ الْبَلاَ الصَّعْبِ",
+      "latin": "Fanajji minal balash sho'bi",
+      "terjemahan": "Maka selamatkanlah dari ujian yang berat"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "أَتَيْنَا طَالِبِي الرِّفْقِ",
+      "latin": "Ataina tholibir rifqi",
+      "terjemahan": "Kami datang memohon kelembutan"
+    },
+    {
+      "arab": "وَجَلِّ الْخَيْرِ وَالسَّعْدِ",
+      "latin": "Wa jallil khoiri was sa'di",
+      "terjemahan": "Dan limpahan kebaikan serta kebahagiaan"
+    },
+    {
+      "arab": "فَوَسِّعْ مِنْحَةَ اْلأَيْدِي",
+      "latin": "Fawassi' min hatal aidi",
+      "terjemahan": "Maka luaskanlah pemberian tangan-tangan"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "فَلاَ تَرْدُدْ مَعَ الْخَيْبَةِ",
+      "latin": "Fala tardud ma'al khoibah",
+      "terjemahan": "Maka janganlah Engkau tolak dengan kegagalan"
+    },
+    {
+      "arab": "بَلْ اجْعَلْنَا عَلَى الطَّيْبَةِ",
+      "latin": "Bal ij'alna 'alat thoyyibah",
+      "terjemahan": "Bahkan jadikanlah kami dalam kebaikan"
+    },
+    {
+      "arab": "أَيَا ذَا الْعِزِّ وَالْهَيْبَةِ",
+      "latin": "Aya dzal 'izzi wal haibah",
+      "terjemahan": "Wahai Dzat Yang Memiliki Kemuliaan dan Kewibawaan"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "وَإِنْ تَرْدُدْ فَمَنْ يَأْتِي",
+      "latin": "Wa in tardud faman ya'ti",
+      "terjemahan": "Dan jika Engkau menolak, maka siapa yang akan datang"
+    },
+    {
+      "arab": "بِنَيْلِ جَمِيعِ حَاجَاتِي",
+      "latin": "Binaili jami'i hajati",
+      "terjemahan": "Dengan memberi segala kebutuhanku"
+    },
+    {
+      "arab": "أَيَا جَالِي الْمُلِمَّاتِ",
+      "latin": "Aya jalil mulimmati",
+      "terjemahan": "Wahai Yang Menghilangkan segala kesulitan"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "إِلٰهِي اغْفِرْ وَأَكْرِمْنَا",
+      "latin": "Ilahighfir wa akrimna",
+      "terjemahan": "Ya Allah, ampunilah dan muliakanlah kami"
+    },
+    {
+      "arab": "بِنَيْلِ مَطَالِبٍ مِنَّا",
+      "latin": "Binaili matholibin minna",
+      "terjemahan": "Dengan mengabulkan permintaan-permintaan kami"
+    },
+    {
+      "arab": "وَدَفْعِ مَسَاءَةٍ عَنَّا",
+      "latin": "Wa daf'i masa-atin 'anna",
+      "terjemahan": "Dan menolak keburukan dari kami"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "إِلٰهِي أَنْتَ ذُوْ لُطْفٍ",
+      "latin": "Ilahi anta dzu lutfin",
+      "terjemahan": "Ya Allah, Engkau Yang Maha Lembut"
+    },
+    {
+      "arab": "وَذُوْ فَضْلٍ وَذُوْ عَطْفٍ",
+      "latin": "Wa dzu fadlin wa dzu 'atfin",
+      "terjemahan": "Yang memiliki keutamaan dan kasih sayang"
+    },
+    {
+      "arab": "وَكَمْ مِنْ كُرْبَةٍ تَنْفِي",
+      "latin": "Wa kam min kurbatin tanfi",
+      "terjemahan": "Dan betapa banyak kesusahan yang Engkau hilangkan"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    },
+    {
+      "arab": "وَصَلِّ عَلَى النَّبِيِّ الْبَرِّ",
+      "latin": "Wa sholli 'alan nabiyyil barri",
+      "terjemahan": "Dan bershalawatlah atas Nabi yang baik"
+    },
+    {
+      "arab": "بِلاَ عَدٍّ وَلاَ حَصْرِ",
+      "latin": "Bila 'addin wa la hashri",
+      "terjemahan": "Tanpa hitungan dan tanpa batasan"
+    },
+    {
+      "arab": "وَآلٍ سَادَةٍ غُرِّ",
+      "latin": "Wa alin sadatin ghurri",
+      "terjemahan": "Dan keluarga para pemimpin yang mulia"
+    },
+    {
+      "arab": "بِأَهْلِ الْبَدْرِ يَا اَللهُ",
+      "latin": "Bi ahlil badri ya Allah",
+      "terjemahan": "Dengan berkah ahli Badar, wahai Allah"
+    }
+  ],
+  "author": "KH Ali Manshur Shiddiq",
+  "created_at": "1965-09-30",
+  "tags": ["klasik", "populer", "tawassul", "doa"],
+  "youtube_link": "https://youtube.com/watch?v=...",
+  "audio_link": "https://soundcloud.com/..."
+}
