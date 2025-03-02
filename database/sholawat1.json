@@ -4,72 +4,10 @@
   "kategori": "Sholawat Populer",
   "nada": "4/4",
   "source": "Kitab Majmu'ah Maulid wa Ad'iyyah",
-  "lirik": [
-    {
-      "arab": "أَحْمَدُ يَا حَبِيْبِيْ ٣×",
-      "latin": "Ahmad ya habibi 3x",
-      "terjemahan": "Ahmad wahai kekasihku (3x)"
-    },
-    {
-      "arab": "سَلَامٌ عَلَيْكَ",
-      "latin": "Salamun 'alaik",
-      "terjemahan": "Salam sejahtera untukmu"
-    },
-    {
-      "arab": "ياَ عَوْنَ الْغَرِيْبِ",
-      "latin": "Ya 'aunal ghoribi",
-      "terjemahan": "Wahai penolong orang asing"
-    },
-    {
-      "arab": "سَلَامٌ عَلَيْكَ",
-      "latin": "Salamun 'alaik",
-      "terjemahan": "Salam sejahtera untukmu"
-    },
-    {
-      "arab": "آمِنٌ وَسَلَامٌ",
-      "latin": "Amin wa salam",
-      "terjemahan": "Aman dan sejahtera"
-    },
-    {
-      "arab": "سَلَامٌ عَلَيْكَ",
-      "latin": "Salamun 'alaik",
-      "terjemahan": "Salam sejahtera untukmu"
-    },
-    {
-      "arab": "دِيْنُكَ الْإِسْلَامُ",
-      "latin": "Dinukal Islam",
-      "terjemahan": "Agamamu adalah Islam"
-    },
-    {
-      "arab": "سَلَامٌ عَلَيْكَ",
-      "latin": "Salamun 'alaik",
-      "terjemahan": "Salam sejahtera untukmu"
-    },
-    {
-      "arab": "جِئْتَ بِالْقُرْآنِ",
-      "latin": "Ji'ta bil Qur'an",
-      "terjemahan": "Engkau datang dengan Al-Qur'an"
-    },
-    {
-      "arab": "سَلَامٌ عَلَيْكَ",
-      "latin": "Salamun 'alaik",
-      "terjemahan": "Salam sejahtera untukmu"
-    },
-    {
-      "arab": "مِنْ عِنْدِ الرَّحْمٰنِ",
-      "latin": "Min 'indirrahman",
-      "terjemahan": "Dari sisi Yang Maha Pengasih"
-    },
-    {
-      "arab": "سَلَامٌ عَلَيْكَ",
-      "latin": "Salamun 'alaik",
-      "terjemahan": "Salam sejahtera untukmu"
-    },
-    {
-      "arab": "جِئْتَ بِالتَّوْحِيْدِ",
-      "latin": "Ji'ta bit tauhid",
-      "terjemahan": "Engkau datang dengan ajaran tauhid"
-    }
+  "imageLyric": [
+    "/images/sholawat1/lyric1.png",
+    "/images/sholawat1/lyric2.png",
+    "/images/sholawat1/lyric3.png"
   ],
   "author": "Imam Zainal Abidin Jafar al-Madan",
   "created_at": "Unknown",

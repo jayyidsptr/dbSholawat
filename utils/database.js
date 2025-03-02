@@ -10,14 +10,14 @@ export async function getAllSholawat() {
   try {
     const files = await readdir(DB_DIR);
     const sholawatFiles = files.filter(file => file.endsWith('.json'));
-    
+
     const sholawatList = await Promise.all(
       sholawatFiles.map(async (file) => {
         const content = await readFile(join(DB_DIR, file), 'utf8');
         return JSON.parse(content);
       })
     );
-    
+
     return sholawatList;
   } catch (error) {
     throw new Error('Error reading database: ' + error.message);
@@ -48,25 +48,27 @@ export async function addSholawat(data) {
   try {
     const sholawatList = await getAllSholawat();
     const newId = String(sholawatList.length + 1);
+    const imagePath = `/images/sholawat${newId}/`;
+
     const newSholawat = {
       id: newId,
       judul: data.judul,
       kategori: data.kategori || "",
       nada: data.nada || "",
       source: data.source || "",
-      lirik: data.lirik || [],
+      imageLyric: data.imageLyric ? data.imageLyric.map((_, i) => `${imagePath}lyric${i + 1}.png`) : [],
       author: data.author || "Unknown",
       created_at: new Date().toISOString().split('T')[0],
       tags: data.tags || [],
       youtube_link: data.youtube_link || "",
       audio_link: data.audio_link || ""
     };
-    
+
     await writeFile(
       join(DB_DIR, `sholawat${newId}.json`),
       JSON.stringify(newSholawat, null, 2)
     );
-    
+
     return newSholawat;
   } catch (error) {
     throw new Error('Error adding sholawat: ' + error.message);
@@ -84,7 +86,7 @@ export async function getAllCategories() {
   }
 }
 
-// Fungsi pencarian
+// Fungsi pencarian sholawat berdasarkan judul atau tag
 export async function searchSholawat(query, options = {}) {
   try {
     const sholawatList = await getAllSholawat();
@@ -94,26 +96,19 @@ export async function searchSholawat(query, options = {}) {
         return false;
       }
 
-      // If no search query, return all items in category
+      // Jika query kosong, kembalikan semua data
       if (!query) {
         return true;
       }
 
       const searchQuery = query.toLowerCase();
-      
-      // Search in title
+
+      // Pencarian berdasarkan judul
       if (sholawat.judul.toLowerCase().includes(searchQuery)) return true;
-      
-      // Search in tags
+
+      // Pencarian berdasarkan tag
       if (sholawat.tags && sholawat.tags.some(tag => 
         tag.toLowerCase().includes(searchQuery)
-      )) return true;
-      
-      // Search in lyrics
-      if (sholawat.lirik && sholawat.lirik.some(bait => 
-        bait.latin.toLowerCase().includes(searchQuery) ||
-        bait.arab.includes(searchQuery) ||
-        bait.terjemahan.toLowerCase().includes(searchQuery)
       )) return true;
 
       return false;
