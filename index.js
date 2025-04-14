@@ -1,5 +1,7 @@
 import express from 'express';
 import cors from 'cors';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import {
   getAllSholawat,
   getSholawatById,
@@ -7,11 +9,14 @@ import {
   getAllCategories,
   searchSholawat
 } from './utils/database.js';
+import { upload, processAndSaveImage } from './utils/upload.js';
 
+const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use('/images', express.static(join(__dirname, 'public', 'images')));
 
 // Endpoint root untuk informasi API dengan tampilan HTML
 app.get('/', async (req, res) => {
@@ -153,6 +158,30 @@ app.post('/api/sholawat', async (req, res) => {
         res.status(400).json({ message: error.message });
     }
 });
+
+// Endpoint tambah sholawat dengan gambar
+app.post('/api/sholawat', upload.array('images', 10), async (req, res) => {
+    try {
+      const files = req.files || [];
+      const sholawatData = JSON.parse(req.body.data);
+  
+      // Proses upload gambar
+      const imageUrls = await Promise.all(
+        files.map((file, index) => processAndSaveImage(file, String(sholawatData.id || ''), index))
+      );
+  
+      // Tambahkan URL gambar ke data sholawat
+      const newSholawat = await addSholawat({
+        ...sholawatData,
+        imageLyric: imageUrls
+      });
+  
+      res.status(201).json(newSholawat);
+    } catch (error) {
+      res.status(400).json({ message: error.message });
+    }
+  });
+  
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server berjalan di port ${port}`));

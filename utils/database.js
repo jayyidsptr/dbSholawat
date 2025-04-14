@@ -48,15 +48,14 @@ export async function addSholawat(data) {
   try {
     const sholawatList = await getAllSholawat();
     const newId = String(sholawatList.length + 1);
-    const imagePath = `/images/sholawat${newId}/`;
-
+    
     const newSholawat = {
       id: newId,
       judul: data.judul,
       kategori: data.kategori || "",
       nada: data.nada || "",
       source: data.source || "",
-      imageLyric: data.imageLyric ? data.imageLyric.map((_, i) => `${imagePath}lyric${i + 1}.png`) : [],
+      imageLyric: data.imageLyric || [], // tambahkan ini
       author: data.author || "Unknown",
       created_at: new Date().toISOString().split('T')[0],
       tags: data.tags || [],
